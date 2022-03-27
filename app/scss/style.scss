@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: tomato;
+}
+
+.ht {
+  color: yellow;
+  background-color: blue;
+}
+.zag {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.pty__r {
+  background-color: rgb(55, 206, 35);
+  margin-right: 20px;
+  padding-left: 80px;
+}
+.box {
+  display: flex;
+}
