@@ -7,6 +7,9 @@
 .header{
   background-color: #fff;
 }
+.header__top{
+  position: relative;
+}
 .header__top-inner {
   display: flex;
   justify-content: space-between;
@@ -508,6 +511,29 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.products .products__item{
+  flex-basis: calc(25% - 30px);
+  margin-left: 30px;
+  animation-delay: 1s;
+}
+.products__item{
+  &:nth-child(1),
+  &:nth-child(5){
+    animation-delay: 0.3s;
+  }
+  &:nth-child(2),
+  &:nth-child(6){
+    animation-delay: 0.5s;
+  }
+  &:nth-child(3),
+  &:nth-child(7){
+    animation-delay: 0.7s;
+  }
+  &:nth-child(4),
+  &:nth-child(8){
+    animation-delay: 0.9s;
+  }
 }
 .products__item {
   max-width: 442px;

@@ -1,10 +1,11 @@
 $(function () {
+    new WOW().init();
     
-$(".rate-star").rateYo({
+    $(".rate-star").rateYo({
     rating: 5,
     starWidth: "12px",
     readOnly: true
-});
+    });
     
     $('.product-slider__inner').slick({
         dots: true,
@@ -53,6 +54,9 @@ var id = $(this).attr('data-id');
         $('.header__box').toggleClass('active');
     });
 
+    
+
     var mixer = mixitup('.products__inner-box');
+    
     
 });
